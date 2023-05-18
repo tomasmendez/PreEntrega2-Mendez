@@ -252,7 +252,7 @@ form{
     border-radius: 20px;
     text-align: center;
     width: 340px;
-    
+     
 
 }
 
@@ -372,5 +372,12 @@ footer {
     margin: 0 auto;
   }
   
+@media(min-width: 768px){
+    .header nav{
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
   
